@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Paramètres du prix du fioul",
+        "description": "Définissez le nombre de mises à jour par jour. Pollrate = nombre de mises à jour par jour (ex : 2 = toutes les 12h).",
+        "data": {
+          "pollrate": "Pollrate (mises à jour par jour, 1–24)"
+        }
+      }
+    },
+    "error": {
+      "invalid_pollrate": "La valeur doit être comprise entre 1 et 24"
+    },
+    "abort": {
+      "single_instance_allowed": "Une seule configuration Fioul est autorisée."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fioul Price Settings",
+        "description": "Set how often per day the Fioul price should be fetched. Pollrate = number of updates per day (e.g. 2 = every 12h).",
+        "data": {
+          "pollrate": "Pollrate (updates per day, 1–24)"
+        }
+      }
+    },
+    "error": {
+      "invalid_pollrate": "Value must be between 1 and 24"
+    },
+    "abort": {
+      "single_instance_allowed": "Only one Fioul configuration is allowed."
+    }
+  }
+}

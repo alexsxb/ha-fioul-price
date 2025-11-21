@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fioulpreis Einstellungen",
+        "description": "Lege fest, wie oft pro Tag der Fioulpreis abgerufen wird. Pollrate = Anzahl Abrufe pro Tag (z.B. 2 = alle 12h).",
+        "data": {
+          "pollrate": "Pollrate (Abrufe pro Tag, 1–24)"
+        }
+      }
+    },
+    "error": {
+      "invalid_pollrate": "Wert muss zwischen 1 und 24 liegen"
+    },
+    "abort": {
+      "single_instance_allowed": "Es ist nur eine Fioul-Konfiguration erlaubt."
+    }
+  }
+}

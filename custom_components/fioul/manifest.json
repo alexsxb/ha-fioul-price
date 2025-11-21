@@ -1,0 +1,13 @@
+{
+  "domain": "fioul",
+  "name": "Fioul Price",
+  "version": "1.0.0",
+  "documentation": "https://github.com/USER/ha-fioul",
+  "requirements": [
+    "beautifulsoup4",
+    "requests"
+  ],
+  "config_flow": true,
+  "codeowners": ["@USER"],
+  "iot_class": "cloud_polling"
+}
