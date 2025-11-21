@@ -1,0 +1,15 @@
+{
+  "domain": "fioul",
+  "name": "Fioul Price France",
+  "version": "1.0.0",
+  "documentation": "https://github.com/DEINUSER/DEINREPO",
+  "issue_tracker": "https://github.com/DEINUSER/DEINREPO/issues",
+  "dependencies": [],
+  "codeowners": ["@DEINUSER"],
+  "requirements": [
+    "beautifulsoup4>=4.12.0",
+    "requests>=2.31.0"
+  ],
+  "iot_class": "cloud_polling",
+  "integration_type": "service"
+}
